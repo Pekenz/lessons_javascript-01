@@ -1,27 +1,3 @@
-/*
-Var
-// Seção de Declarações das variáveis 
-   nome: caractere
-   idade, limite, cont: inteiro
-
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreva("Digite a quantidade de vezes que vai ser verificado a idade: ")
-   leia(limite)
-   cont := 0
-   enquanto cont < limite faca
-       escreva("Digite o nome da pessoa: ")
-       leia(nome)
-       escreva("Digite a idade do ", nome, ": ")
-       leia(idade)
-       se idade > 18 entao
-           escreval(nome, " Você é maior de idade!")
-       senao
-           escreval(nome, " Você é menor de idade!")
-       fimse
-       cont := cont + 1
-   fimenquanto
-*/
 function bCalc() {
     var nome, idade, limite, cont
     limite = prompt("Digite a quantidade de vezes que vai ser verificado a idade: ")
