@@ -1,3 +1,4 @@
+
 function bCalc() {
     var num1, num2, res, op
     num1 = prompt("Digite o primeiro valor: ")
